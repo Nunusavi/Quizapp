@@ -142,10 +142,10 @@ submitBtn.addEventListener("click", () => {
                 quiz.innerHTML ='<h2>You know me too well, You are a great friend!</h2><button onclick="location.reload()">Reload</button>';
             }
             else if (score >= 5 && score < 8){
-                quiz.innerHTML ='<h2> ${score}/${quizData.length} We need to work on our friendship, You are a good friend though!</h2><button onclick="location.reload()">Reload</button>';
+                quiz.innerHTML ='<h2>  We need to work on our friendship, You are a good friend though!</h2><button onclick="location.reload()">Reload</button>';
             }
             else {
-                quiz.innerHTML ='<h2> ${score}/${quizData.length} Who are you? You are not my friend! Disappointment </h2><button onclick="location.reload()">Reload</button>';
+                quiz.innerHTML ='<h2>  Who are you? You are not my friend! Disappointment </h2><button onclick="location.reload()">Reload</button>';
             }
             
         }
