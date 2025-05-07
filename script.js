@@ -139,13 +139,13 @@ submitBtn.addEventListener("click", () => {
             loadQuiz();
         } else {
             if(score >= 8){
-                quiz.innerHTML ='<p>"'score'"</p><h2>You know me too well, You are a great friend!</h2><button onclick="location.reload()">Reload</button>';
+                quiz.innerHTML ='<p>${score}</p><h2>You know me too well, You are a great friend!</h2><button onclick="location.reload()">Reload</button>';
             }
             else if (score >= 5 && score < 8){
-                quiz.innerHTML ='<p>"'score'"</p><h2>  We need to work on our friendship, You are a good friend though!</h2><button onclick="location.reload()">Reload</button>';
+                quiz.innerHTML ='<p>${score}</p><h2>  We need to work on our friendship, You are a good friend though!</h2><button onclick="location.reload()">Reload</button>';
             }
             else {
-                quiz.innerHTML ='<p>"'score'"</p><h2>  Who are you? You are not my friend! Disappointment </h2><button onclick="location.reload()">Reload</button>';
+                quiz.innerHTML ='<p>${score}</p><h2>  Who are you? You are not my friend! Disappointment </h2><button onclick="location.reload()">Reload</button>';
             }
             
         }
